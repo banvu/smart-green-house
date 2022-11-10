@@ -1,10 +1,29 @@
+import Home from "./pages/home/Home";
+import Login from "./pages/login/Login";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1 className=" text-3xl font-bold underline">This is Test Message</h1>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <nav>
+          <ul className="flex">
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/login">Login</Link>
+            </li>
+          </ul>
+        </nav>
+        <Routes>
+          <Route path="/">
+            <Route index element={<Home />} />
+            <Route path="/login" element={<Login />} />
+          </Route>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
