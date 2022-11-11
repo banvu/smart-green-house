@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/smart-green-house/static/css/main.bbb77c2b.css",
+    "main.js": "/smart-green-house/static/js/main.4583a302.js",
+    "index.html": "/smart-green-house/index.html",
+    "main.bbb77c2b.css.map": "/smart-green-house/static/css/main.bbb77c2b.css.map",
+    "main.4583a302.js.map": "/smart-green-house/static/js/main.4583a302.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbb77c2b.css",
+    "static/js/main.4583a302.js"
+  ]
+}
