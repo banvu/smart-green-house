@@ -4,7 +4,6 @@ const config = {
   database: "SmartGarden",
   server: "imet.com.vn",
   port: 1435,
-  driver: "msnodesqlv8",
   autoLoadEntities: true,
   synchronize: true,
 
