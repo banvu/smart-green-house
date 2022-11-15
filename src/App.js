@@ -6,13 +6,23 @@ function App() {
   return (
     <Router>
       <div>
-        <nav>
-          <ul className="flex">
+        <nav className=" my-10 ">
+          <ul className="flex ">
             <li>
-              <Link to="/">Home</Link>
+              <Link
+                to="/"
+                className=" font-bold text-blue-500 hover:underline "
+              >
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/login">Login</Link>
+              <Link
+                to="/login"
+                className=" font-bold text-blue-500 hover:underline "
+              >
+                Login
+              </Link>
             </li>
           </ul>
         </nav>
